@@ -1,0 +1,21 @@
+{
+  "name": "icon-font-test",
+  "version": "1.0.0",
+  "description": "quick test of fantasticon",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf style && mkdir style && npx fantasticon && cp style/icons.html index.html",
+    "test": "npx http-server ."
+  },
+  "keywords": [
+    "icon",
+    "icons",
+    "icon-font"
+  ],
+  "author": "Tonio Loewald",
+  "license": "MIT",
+  "devDependencies": {
+    "fantasticon": "^2.0.0",
+    "http-server": "latest"
+  }
+}
